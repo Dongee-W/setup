@@ -8,8 +8,11 @@ follows:
 cd $HOME
 sudo apt-get install -y git-core
 git clone https://github.com/sctech/setup.git
-./setup/setup.sh   
+./setup/setup.sh
 ```
+
+add "(normal-erase-is-backspace-mode 0)"
+to "~/.emacs.d/init.el" file to enable backspace delete in emacs
 
 See also http://github.com/startup-class/dotfiles and
 [Startup Engineering Video Lectures 4a/4b](https://class.coursera.org/startup-001/lecture/index)
